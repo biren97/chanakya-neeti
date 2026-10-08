@@ -33,3 +33,10 @@ Create `src/data/ch16.js` (same format as `ch15.js`), then import it and add `16
 `src/data/chapters.js`. Chapters with no shlokas are hidden automatically.
 
 `node scripts/check-data.mjs` checks the shloka data.
+
+## Pending
+
+Images
+story
+Adsense
+youtube video

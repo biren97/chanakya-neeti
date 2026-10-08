@@ -75,7 +75,7 @@ export default function Sidebar({ chapters }) {
           })}
         </nav>
         <div className="side-foot">
-          <Link href="/about/">परिचय</Link> · <Link href="/privacy/">गोपनीयता</Link> · <Link href="/disclaimer/">अस्वीकरण</Link>
+          <Link href="/about/">About</Link> · <Link href="/privacy/">Privacy</Link> · <Link href="/disclaimer/">Disclaimer</Link>
         </div>
       </aside>
     </>

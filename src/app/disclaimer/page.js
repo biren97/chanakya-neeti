@@ -1,13 +1,27 @@
-export const metadata = { title: "अस्वीकरण" };
+export const metadata = {
+  title: "Disclaimer",
+  description: "Disclaimer for Chanakya Neeti: educational content, historical context of the shlokas, interpretations and third-party ads.",
+};
 
 export default function Disclaimer() {
   return (
-    <div className="page prose">
-      <h1>अस्वीकरण</h1>
-      <p>इस साइट की सामग्री केवल सामान्य जानकारी और शैक्षिक उद्देश्य के लिए है। यह कानूनी, वित्तीय, चिकित्सकीय या किसी अन्य पेशेवर सलाह का विकल्प नहीं है।</p>
-      <p>श्लोक प्राचीन ग्रंथ से हैं और अपने समय की सामाजिक सोच को दर्शाते हैं। उनमें से कुछ विचार आज के मूल्यों से मेल नहीं खाते। हम उन्हें ऐतिहासिक संदर्भ में प्रस्तुत करते हैं, समर्थन के रूप में नहीं।</p>
-      <p>अर्थ और सार की व्याख्याएँ साइट की अपनी हैं और एक से अधिक तरह से समझी जा सकती हैं। हम उनकी पूर्ण शुद्धता की गारंटी नहीं देते।</p>
-      <p>इस साइट पर तृतीय-पक्ष विज्ञापन दिखाए जा सकते हैं। विज्ञापनदाताओं की सामग्री और दावों के लिए यह साइट उत्तरदायी नहीं है।</p>
+    <div className="page prose" lang="en">
+      <h1>Disclaimer</h1>
+      <p>
+        The content on this site is for general information and educational purposes only. It is not a substitute for legal,
+        financial, medical or any other professional advice.
+      </p>
+      <p>
+        The shlokas come from an ancient text and reflect the social thinking of their time. Some of the ideas do not match today&apos;s
+        values. We present them in their historical context, not as an endorsement.
+      </p>
+      <p>
+        The meanings and takeaways are this site&apos;s own interpretations. A shloka can be understood in more than one way, and we do
+        not guarantee that an interpretation is complete or free of errors.
+      </p>
+      <p>
+        Third-party advertisements may be shown on this site. We are not responsible for the content or claims of advertisers.
+      </p>
     </div>
   );
 }

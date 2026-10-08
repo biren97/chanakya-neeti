@@ -1,17 +1,27 @@
-export const metadata = { title: "परिचय" };
+export const metadata = {
+  title: "About",
+  description: "About Chanakya Neeti: original shlokas with simple Hindi meanings and takeaways, and how the content on this site is prepared.",
+};
 
 export default function About() {
   return (
-    <div className="page prose">
-      <h1>इस साइट के बारे में</h1>
-      <p>यह साइट आचार्य चाणक्य की नीतियों को सरल हिंदी में पढ़ने का एक प्रयास है। हर श्लोक के साथ उसका अर्थ और एक पंक्ति का सार दिया गया है।</p>
-      <h2>सामग्री कैसे तैयार की गई</h2>
+    <div className="page prose" lang="en">
+      <h1>About this site</h1>
+      <p>
+        This site is an effort to make the teachings of Acharya Chanakya easy to read in simple Hindi. Every shloka comes with its
+        meaning and a one-line takeaway.
+      </p>
+      <h2>How the content is prepared</h2>
       <ul>
-        <li>मूल संस्कृत श्लोक लगभग 2300 वर्ष पुराने हैं और सार्वजनिक संपत्ति (public domain) हैं।</li>
-        <li>अर्थ और सार इस साइट के लिए नए सिरे से लिखे गए हैं। ये किसी प्रकाशित पुस्तक की व्याख्या की नकल या पुनर्लेखन नहीं हैं।</li>
-        <li>अध्ययन के लिए श्लोकों को फेंटकर अलग क्रम में पढ़ने की सुविधा दी गई है।</li>
+        <li>The original Sanskrit shlokas are about 2,300 years old and are in the public domain.</li>
+        <li>The meanings and takeaways are written fresh for this site. They are not copied or reworded from any published book&apos;s commentary.</li>
+        <li>For study, you can shuffle the shlokas of a chapter and read them in a different order.</li>
       </ul>
-      <p>किसी त्रुटि की सूचना या सुझाव के लिए संपर्क करें: {process.env.NEXT_PUBLIC_CONTACT_EMAIL || "संपर्क पता जल्द जोड़ा जाएगा"}</p>
+      <h2>Corrections and feedback</h2>
+      <p>
+        If you notice a mistake in a shloka or a meaning, or have a suggestion, please get in touch on the{" "}
+        <a href="/contact/">Contact page</a>.
+      </p>
     </div>
   );
 }
